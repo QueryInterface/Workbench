@@ -26,10 +26,9 @@ macro(force_warning_level)
   endif()
 endmacro()
 
-# increase warning level to W4
+# Disable wwarnings for a specific subfolder
 macro(disable_warning_level)
   if(MSVC)
-    # Force to always compile with W4
     foreach (flag_var
              CMAKE_CXX_FLAGS CMAKE_CXX_FLAGS_DEBUG CMAKE_CXX_FLAGS_RELEASE
              CMAKE_CXX_FLAGS_MINSIZEREL CMAKE_CXX_FLAGS_RELWITHDEBINFO 
