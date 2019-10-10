@@ -1,3 +1,6 @@
 [submodule "3rdParty/SDL"]
 	path = 3rdParty/SDL
 	url = https://github.com/SDL-mirror/SDL.git
+[submodule "3rdParty/spdlog"]
+	path = 3rdParty/spdlog
+	url = https://github.com/gabime/spdlog.git
