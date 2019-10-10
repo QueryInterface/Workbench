@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.0.2)
 set_property (GLOBAL PROPERTY USE_FOLDERS ON)
 project(Workbench)
 
-include(cmake/useful_functions.cmake)
+include(cmake/UtilityFunctions.cmake)
 
 update_compiler_settings()
 check_apple_platform()
